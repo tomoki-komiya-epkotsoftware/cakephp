@@ -10,7 +10,7 @@ use App\Controller\AppController;
  *
  * @method \App\Model\Entity\Bidrequest[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
  */
-class BidrequestController extends AppController
+class BidrequestController extends AuctionBaseController
 {
 
     /**
